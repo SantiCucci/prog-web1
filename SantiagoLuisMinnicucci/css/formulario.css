@@ -1,0 +1,107 @@
+body{
+
+    background-color: #76b9ff;
+    min-height: 100vh; 
+    color: white;
+    position: relative;
+    padding-bottom: 3em; 
+    min-height: 100vh;
+
+}
+
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+    * {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Binance PLEX";
+}
+
+    .header{
+
+    background-color: #192f47;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+
+}
+
+
+    .header img:hover{
+
+    transform: scale(1.06);
+
+}
+
+
+    .header img{
+
+    cursor: pointer; 
+    height: 115px;
+    width: auto;
+    transition: all 0.3s;
+
+} 
+
+    .mover-texto{
+
+    margin-left: 40px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+    nav p{
+
+   margin-right: 50px;
+
+
+    }
+
+h2{
+    margin-top: 25px;
+    font-size: 3rem;
+
+
+}
+    p {
+        margin-top: 5px;
+    font-size: 2rem;
+    line-height: 1.6
+
+}
+
+
+button
+{
+width: 10%;            
+background-color: #192f47;
+border: none;
+padding: 10px;
+margin-top: 26px;
+margin-left: 40px;
+border-radius: 7px;
+cursor: pointer;
+transform: scale(1.02);
+transition: all 0.3s ease 0s;
+
+}
+
+a button
+{
+
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-size: 1.2rem;
+
+}
+
+ button:hover{
+
+    background-color: rgb(11, 34, 61);
+    transform: scale(1.03);
+    
+}
